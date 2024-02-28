@@ -18,7 +18,7 @@ export default function App() {
   const [height, setHeight] = useState ('')
 
   function calcBmi() {
-    let res = (weight/(Math.pow(height, 2)))*1
+    let res = ((weight/(Math.pow(height, 2)))*1).toPrecision(4)
     setBmi(res)
     setWeight('')
     setHeight('')
