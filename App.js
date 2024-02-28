@@ -1,3 +1,13 @@
+/*
+* File: App.js
+* Author: Szinyei Mikes
+* Copyright: 2024, Szinyei Mikes
+* Group: Szoft II/2/N
+* Date: 2024-02-28
+* Github: https://github.com/MikesSzinyei
+* Licenc: GNU GPL
+*/
+
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Pressable, StyleSheet, TextInput, Text, View } from 'react-native';
